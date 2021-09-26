@@ -1,0 +1,15 @@
+.main__chatbody {
+  margin-bottom: 10px;
+  margin-top: 90px;
+  margin-left: 90px;
+  margin-right: 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  flex-grow: 1;
+  background-color: #f8f8f75d;
+  border-radius: 10px;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}     

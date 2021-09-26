@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+  padding: 2%;
+}
+
+body {
+  overflow: overlay;
+  font-family:  "Raleway", sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 2rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.411);
+  border-radius: 2rem;
+}
+
+root {
+  height: 100%;
+  padding: 2%;
+}
+
+.abtn {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  min-width: 150px;
+  background-color: #fbc101;
+  letter-spacing: 1px;
+  padding: 7px 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 0, 0);
+}

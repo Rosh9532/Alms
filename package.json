@@ -1,0 +1,19 @@
+{
+  "name": "alms",
+  "version": "1.0.0",
+  "description": "Alms for needy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Mongodb",
+    "Expressjs",
+    "Reactjs",
+    "Socket.io",
+    "Nodejs",
+    "Cloudinary"
+  ],
+  "author": "Alms",
+  "license": "ISC"
+}

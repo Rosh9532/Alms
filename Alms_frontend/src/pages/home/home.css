@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
+*{
+    font-family: "Raleway", sans-serif;
+    
+}
+
+
+body{overflow-x: hidden;}
+
+.phone{
+    width: auto;
+    height: 50px;
+    border-radius: 2rem;
+    border-radius: 2rem;
+    margin-top: 480px; 
+    margin-left: 87% ;
+    
+
+}
+
+.phone img{
+    height: 75px;
+    border-radius: 2.5rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    
+}
+
+.phone img:hover{
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px;
+    transition: 0.4s;
+}
+
+.bg_img{
+    background-image: url(./images/bg_children.jpg) ;
+    background-size: cover;
+    position: absolute;
+    box-sizing:border-box;
+    width: 100%;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+
+.bg_button1{
+    width: 130px;
+    height: 40px;
+    font-size:xx-small;
+    background: rgba(0, 0, 0, 0.20);
+    color: white;
+    cursor: pointer;
+    border: 0 none;
+    outline: 0;
+    
+}
+
+
+
+.bg_button2{
+    width: 130px;
+    height: 40px;
+    font-size:medium;
+    background: #FBC101;
+    color: white;
+    cursor: pointer;
+    border: 0 none;
+    outline: 0;
+}
+
+.bg_content h1{
+    width: 100%;
+    height: auto;
+    font-family: "Sanchez", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 55px;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.bg_content{
+    position: relative;
+    box-sizing: border-box;
+    position: absolute;
+    width: 740px;
+    height: 312px;
+    left: 74px;
+    top: 400px;
+    z-index: 2;
+}
+
+.bg_img .bg_content a{
+    text-decoration: none;
+    color: white;
+}
+
+.bg_img .blur_div{
+    position: absolute;
+    box-sizing: border-box;
+    height: 405px;
+    width: 100%;
+    margin-top: 650px;
+    left: 0;
+    background: rgba(113, 112, 112, 0.84);
+    filter: blur(158px);
+    
+}
+
+.section2{
+    height: 600px;
+    margin-top: 900px;
+    background-color: #DDDDDD;
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section2 .shrt_info{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    
+}
+
+.section2 .shrt_info .card{
+    background-image: url(./images/sm_bg2.gif);
+    background-size: cover;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding-top: 50px ;
+    padding-bottom: 10px ;
+    border: none;
+    background-color: #DDDDDD;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section2 .shrt_info .card .icons_reg{
+    display: flex;
+    flex-direction: row;
+}
+
+.section2 .shrt_info .card .icons_reg .icon1{
+    margin-right: -10px;
+}
+.section2 .shrt_info .card .icons_reg .icon2{
+    margin-left: -15px;
+}
+
+.sections .card-group{
+    margin-top: -750px;
+    margin-left: 100px;
+    margin-right: 100px;
+    z-index: 4;
+    
+}
+
+.sections .card-group .card{
+    box-sizing: border-box;
+    margin: 20px; 
+    height: 350px;
+    border: 0;
+    overflow: hidden;
+    padding-left:-100px ;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    
+}
+
+
+
+.sections .card-group .card img{
+    width: 700px;
+    min-height: 100%;
+    box-shadow: inset 0px 4px 99px rgba(74, 67, 0, 0.41);
+    margin-bottom: -28px; 
+    
+}
+
+
+
+.sections .card-group .card-img-overlay{
+    
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+.sections .card-group .card:hover .card-img-overlay{
+    opacity: 1;
+}
+
+.section3{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: 1px;
+    top: 1500px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.section3 .card-image img{
+    width:100%;
+    height: 500px;
+    margin-top: -226px;
+}
+
+.section3 h1{
+    margin-top: -250px ;
+    font-weight: bolder;
+    line-height: 66px;
+    text-transform: uppercase;
+    animation: 1s shake infinite alternate;
+}
+@keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+  }
+
+.section3 .card {
+    height: 500px;
+    margin: 0 150px ;
+    border: none;
+}
+
+.section3 .card img{
+        width: 100%;
+        min-height: 100%;
+        
+}
+
+.section3 .card .card-body{
+    padding-top: 150px;
+    padding-left: 50px ;
+    text-align: left;
+    line-height: 30px;
+}
+
+.section3 .card .card-body h5{
+    font-weight: bold;
+}
+
+
+.section4{
+    
+    height: auto;
+    margin-top: 1000px;
+    box-sizing: border-box;
+    
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 ._3_crds{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    
+}
+
+.button{
+    background-color: #FBC101;
+    border: none;
+}
+
+.section4 ._3_crds .card{
+    height: auto;
+    border: none;
+    width: auto;
+    margin: 15px 20px ;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.section4 ._3_crds .card img{
+    object-fit: cover;
+    height: 130px;
+}
+
+.see_more{
+    font-weight: bold;
+    color:white;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    border-radius: 2rem;
+    padding-top: 15px;
+    margin: 40px;
+    background-color: #FBC101;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+
+.section5{
+    height: 700px ;
+    
+    padding-top: -10em;
+    overflow: hidden;
+}
+
+.section5 img{
+    margin-top: -170px;
+    width: 100%;
+}
+
+.section6{
+    
+    height: 600px;
+    margin-top: -510px;
+}
+
+.section6 img{
+    width: 100%;
+    height: 600px;
+}
+
+.section7{
+    background-color: #2F2F2F;
+    width: 100%;
+    height: 250px;
+}
+
