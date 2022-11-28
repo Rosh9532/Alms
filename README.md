@@ -33,10 +33,10 @@ and receiver of food can discuss the further details.
 ## Contributors
 
 ### Developers :
-- [Roshni Chauhan](https://github.com/Rosh9532),
-- [Harshal Kaigaonkar](https://github.com/harshalkaigaonkar),
-- [Omkar Bhambure](https://github.com/Omkar-0405) ,
-- [Tejashree Ghude](https://github.com/teju1001).
+- [Roshni Chauhan](https://github.com/Rosh9532)
+- [Harshal Kaigaonkar](https://github.com/harshalkaigaonkar)
+- [Omkar Bhambure](https://github.com/Omkar-0405)
+- [Tejashree Ghude](https://github.com/teju1001)
 
 ## DEMO
 ![home1](https://user-images.githubusercontent.com/82097102/132108356-13499088-b46d-42e7-98d7-99fe777366da.png)
