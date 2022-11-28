@@ -32,7 +32,7 @@ and receiver of food can discuss the further details.
 
 ## Contributors
 
-## Developers-
+### Developers :
 - [Roshni Chauhan](https://github.com/Rosh9532),
 - [Harshal Kaigaonkar](https://github.com/harshalkaigaonkar),
 - [Omkar Bhambure](https://github.com/Omkar-0405) ,
